@@ -1,0 +1,64 @@
+### 解题思路
+
+整体思路是：用两个指针`left`和`right`在`s`上滑动，记录一个**左闭右开**的滑动窗口。首先`right`向右滑动，直到窗口中包含`t`中所有字符，然后`left`向右滑动，同时更新结果，直到窗口中不包含`t`中所有字符。重复这个过程直到`right`到达`s`的末尾。
+
+### 代码
+
+* java
+
+```java
+class Solution {
+    public String minWindow(String s, String t) {
+        // 统计字符串t的词频
+        HashMap<Character, Integer> tfreq = new HashMap<>();
+        for(int i = 0; i < t.length(); i++){
+            tfreq.put(t.charAt(i), tfreq.getOrDefault(t.charAt(i), 0) + 1);
+        }
+        // 记录滑动窗口中的词频
+        HashMap<Character, Integer> window = new HashMap<>();
+        // 记录当前窗口中有多少个字符已经满足要求
+        int success = 0;
+        // 记录最小覆盖子串的起始位置和长度
+        int start = 0;
+        int len = Integer.MAX_VALUE;
+
+        // 开始滑动窗口(左闭右开)
+        int left = 0;
+        int right = 0;
+        while(right < s.length()){
+            char c = s.charAt(right);
+            if(tfreq.containsKey(c)){
+                // 把 s[right] 加入窗口
+                window.put(c, window.getOrDefault(c, 0) + 1);
+                // 判断窗口中字符 c 的数量是否达到要求
+                if(tfreq.get(c).equals(window.get(c))){
+                    success++;
+                }
+            }
+            // 窗口向右扩大
+            right++;
+
+            // 判断窗口是否涵盖了 t 中所有字符
+            while(success == tfreq.size()){
+                // 更新结果
+                if(right - left < len){
+                    start = left;
+                    len = right - left;
+                }
+
+                // 缩小窗口范围
+                char x = s.charAt(left);
+                if(tfreq.containsKey(x)){
+                    if(window.get(x).equals(tfreq.get(x))){
+                        success--;
+                    }
+                    window.put(x, window.get(x) - 1);
+                }
+                left++;
+            }
+        }
+        return len == Integer.MAX_VALUE ? "" : s.substring(start, start + len);
+    }
+}
+```
+
