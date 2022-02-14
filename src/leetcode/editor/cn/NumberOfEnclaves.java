@@ -45,6 +45,10 @@ package leetcode.editor.cn;
 
 // Java：飞地的数量
 // question number: 1020
+// 		9:43	info
+// 		解答成功:
+// 		执行耗时:4 ms,击败了83.75% 的Java用户
+// 		内存消耗:49.5 MB,击败了6.02% 的Java用户
 public class NumberOfEnclaves {
 	public static void main(String[] args) {
 		Solution solution = new NumberOfEnclaves().new Solution();
@@ -55,8 +59,45 @@ public class NumberOfEnclaves {
 	//leetcode submit region begin(Prohibit modification and deletion)
 	class Solution {
 		public int numEnclaves(int[][] grid) {
-		  // fixme
-			return 0;
+			// fixme
+			int m = grid.length;
+			int n = grid[0].length;
+
+			for (int i = 0; i < m; i++) {
+				for (int j = 0; j < n; j++) {
+					if (i == 0 || j == 0 || i == m - 1 || j == n - 1) {
+						dfs(grid, i, j);
+					}
+				}
+			}
+
+			int rst = 0;
+			for (int i = 0; i < m; i++) {
+				for (int j = 0; j < n; j++) {
+					if (grid[i][j] == 1) {
+						rst++;
+					}
+				}
+			}
+
+			return rst;
+		}
+
+		public void dfs(int[][] grid, int i, int j) {
+			if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == 0 || grid[i][j] == -1) {
+				return;
+			}
+
+			grid[i][j] = -1;
+
+			// 上
+			dfs(grid, i - 1, j);
+
+			dfs(grid, i + 1, j);
+
+			dfs(grid, i, j + 1);
+
+			dfs(grid, i, j - 1);
 		}
 	}
 //leetcode submit region end(Prohibit modification and deletion)
