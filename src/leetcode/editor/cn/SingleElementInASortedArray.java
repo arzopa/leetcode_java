@@ -34,40 +34,45 @@
 
 package leetcode.editor.cn;
 
-import java.util.Arrays;
-
 // Java：有序数组中的单一元素
 // question number: 540
 // 10:06	info
 // 			解答成功:
-// 			执行耗时:2 ms,击败了22.98% 的Java用户
-// 			内存消耗:47.2 MB,击败了7.28% 的Java用户
+// 			执行耗时:0 ms,击败了100.00% 的Java用户
+// 			内存消耗:47.1 MB,击败了8.90% 的Java用户
+//
 public class SingleElementInASortedArray {
 	public static void main(String[] args) {
 		Solution solution = new SingleElementInASortedArray().new Solution();
 		// TO TEST
-		System.out.println(solution.singleNonDuplicate(new int[]{1,1,2}));
+		System.out.println(solution.singleNonDuplicate(new int[]{1, 1, 2}));
 	}
 
 	//leetcode submit region begin(Prohibit modification and deletion)
 	class Solution {
+		// nums 为有序数组
 		public int singleNonDuplicate(int[] nums) {
-			if (nums.length == 1) {
-				return nums[0];
+			int len = nums.length;
+			int l = 0;
+			int r = len - 1;
+			while (l < r) {
+				int mid = l + r >> 1;
+				if (mid % 2 == 0) {
+					if (mid + 1 < len && nums[mid] == nums[mid + 1]) {
+						l = mid + 1;
+					} else {
+						r = mid;
+					}
+				} else {
+					if (mid - 1 >= 0 && nums[mid] == nums[mid - 1]) {
+						l = mid + 1;
+					} else {
+						r = mid;
+					}
+				}
 			}
 
-			Arrays.sort(nums);
-			for (int i = 0; i < nums.length; i += 2) {
-				if (i == nums.length - 1) {
-					return nums[i];
-				}
-
-				if (nums[i] != nums[i + 1]) {
-					return nums[i];
-				}
-			}
-
-			return 0;
+			return nums[r];
 		}
 	}
 //leetcode submit region end(Prohibit modification and deletion)
