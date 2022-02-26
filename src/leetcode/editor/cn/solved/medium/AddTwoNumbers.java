@@ -39,7 +39,7 @@
 // 
 // Related Topics 递归 链表 数学 👍 7487 👎 0
 
-package leetcode.editor.cn.solved;
+package leetcode.editor.cn.solved.medium;
 
 // Java：两数相加
 // question number: 2
