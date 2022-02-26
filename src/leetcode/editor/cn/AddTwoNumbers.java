@@ -48,7 +48,7 @@ public class AddTwoNumbers {
 		Solution solution = new AddTwoNumbers().new Solution();
 		// TO TESTnew ListNode(5, new ListNode(6, new ListNode(4)))
 		ListNode l1 = new ListNode(9, new ListNode(9, new ListNode(9, new ListNode(9, null))));
-		ListNode l2 = new ListNode(9, new ListNode(9, new ListNode(9, null)));
+		ListNode l2 = new ListNode(9, new ListNode(9, null));
 		System.out.println(solution.addTwoNumbers(l1, l2));
 	}
 
@@ -83,69 +83,70 @@ public class AddTwoNumbers {
 	class Solution {
 		public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 			int carry = 0;
-			ListNode rst = new ListNode();
-			ListNode head = rst;
-			ListNode copyL1 = l1;
-			ListNode copyL2 = l2;
-
-			while (copyL1 != null && copyL2 != null) {
-				int val = copyL1.val + copyL2.val;
-				copyL1 = copyL1.next;
-				copyL2 = copyL2.next;
-
-				val = val + carry;
-				if (val >= 10) {
+			ListNode head = new ListNode();
+			ListNode node = head;
+			while (l1 != null && l2 != null) {
+				int value = l1.val + l2.val + carry;
+				if (value >= 10) {
 					carry = 1;
+					value = value % 10;
 				} else {
 					carry = 0;
 				}
+				node.val = value;
 
-				head.val = val % 10;
+				l1 = l1.next;
+				l2 = l2.next;
 
-				if (copyL1 != null && copyL2 != null) {
-					head.next = new ListNode();
-					head = head.next;
-				}
-			}
+				if (l1 == null && l2 == null) {
+					if (carry == 0) {
+						return head;
+					}
 
-			while (copyL1 != null) {
-				int val = copyL1.val + carry;
-				val = val + carry;
-				if (val >= 10) {
-					carry = 1;
-				} else {
-					carry = 0;
+					node.next = new ListNode();
+					node = node.next;
+					node.val = 1;
+					return head;
 				}
 
-				head.val = val % 10;
-
-				copyL1 = copyL1.next;
-				head.next = new ListNode();
-				head = head.next;
+				node.next = new ListNode();
+				node = node.next;
 			}
 
-			while (copyL2 != null) {
-				int val = copyL2.val + carry;
-				val = val + carry;
-				if (val >= 10) {
-					carry = 1;
-				} else {
-					carry = 0;
-				}
-
-				head.val = val % 10;
-
-				head.next = new ListNode();
-				head = head.next;
-			}
-
-			if (carry != 0) {
-				head.val = carry;
+			ListNode notEndList;
+			if (l1 != null) {
+				notEndList = l1;
 			} else {
-				head = null;
+				notEndList = l2;
 			}
 
-			return rst;
+			while (notEndList != null) {
+				int value = notEndList.val + carry;
+				if (value >= 10) {
+					carry = 1;
+					value = value % 10;
+				} else {
+					carry = 0;
+				}
+				node.val = value;
+				notEndList = notEndList.next;
+
+				if (notEndList == null) {
+					if (carry == 0) {
+						return head;
+					}
+
+					node.next = new ListNode();
+					node = node.next;
+					node.val = 1;
+					return head;
+				}
+
+				node.next = new ListNode();
+				node = node.next;
+			}
+
+			return head;
 		}
 	}
 //leetcode submit region end(Prohibit modification and deletion)
