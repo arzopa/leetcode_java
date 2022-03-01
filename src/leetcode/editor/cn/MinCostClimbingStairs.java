@@ -49,7 +49,7 @@ public class MinCostClimbingStairs {
 	public static void main(String[] args) {
 		Solution solution = new MinCostClimbingStairs().new Solution();
 		// TO TEST
-		// System.out.println(solution.);
+		System.out.println(solution.minCostClimbingStairs(new int[]{1,100,1,1,1,100,1,1,100,1}));
 	}
 
 	//leetcode submit region begin(Prohibit modification and deletion)
