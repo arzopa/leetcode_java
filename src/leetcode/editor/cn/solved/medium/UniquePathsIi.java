@@ -38,7 +38,7 @@
 // 
 // Related Topics 数组 动态规划 矩阵 👍 736 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.solved.medium;
 
 // Java：不同路径 II
 // question number: 63
