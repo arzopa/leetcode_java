@@ -41,7 +41,7 @@
 // 
 // Related Topics 数组 动态规划 👍 809 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.solved.medium;
 
 // Java：使用最小花费爬楼梯
 // question number: 746

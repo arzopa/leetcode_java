@@ -52,7 +52,7 @@
 // 
 // Related Topics 字符串 👍 1549 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.solved.medium;
 
 // Java：Z 字形变换
 // question number: 6
