@@ -3,7 +3,7 @@
 ## [剑指offer](https://leetcode.cn/problem-list/xb9nqhhg/)
 <details>
     <summary>001~050</summary>
-    1. :heavy_check_mark: 剑指 Offer 03. 数组中重复的数字
+    1. :heavy_check_mark: [剑指 Offer 03. 数组中重复的数字](https://github.com/fallinyou/leetcode_java/blob/master/src/leetcode/editor/cn/interview/srto/ShuZuZhongZhongFuDeShuZiLcof.java)
 </details>
 
 ## [剑指offer 专项突破](https://leetcode.cn/problem-list/e8X3pBZi/)
