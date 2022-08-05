@@ -9,7 +9,6 @@
 ## [剑指offer 专项突破](https://leetcode.cn/problem-list/e8X3pBZi/)
 <details>
     <summary>001~050</summary>
-    1. :heavy_check_mark: 剑指 Offer 03. 数组中重复的数字
 </details>
 
 
