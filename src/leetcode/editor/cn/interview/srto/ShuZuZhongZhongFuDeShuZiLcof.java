@@ -18,7 +18,7 @@
 //
 // Related Topics 数组 哈希表 排序 👍 917 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.interview.srto;
 
 import java.util.HashMap;
 import java.util.Map;
