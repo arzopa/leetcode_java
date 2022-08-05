@@ -35,7 +35,7 @@
 //
 // Related Topics 数组 二分查找 分治 矩阵 👍 752 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.interview.srto;
 // Java：二维数组中的查找
 // question number: 剑指 Offer 04
 public class ErWeiShuZuZhongDeChaZhaoLcof{
