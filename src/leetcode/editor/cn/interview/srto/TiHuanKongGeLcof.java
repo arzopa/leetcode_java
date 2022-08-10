@@ -16,7 +16,7 @@
 // Related Topics 字符串 👍 330 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.interview.srto;
 
 /**
  * 替换空格

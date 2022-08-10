@@ -4,7 +4,8 @@
 <details>
     <summary>001~050</summary>
     1. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/ShuZuZhongZhongFuDeShuZiLcof.java">剑指 Offer 03. 数组中重复的数字</a><br/>
-    2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/ErWeiShuZuZhongDeChaZhaoLcof.java">剑指 Offer 04. 二维数组中的查找</a>
+    2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/ErWeiShuZuZhongDeChaZhaoLcof.java">剑指 Offer 04. 二维数组中的查找</a><br/>
+    2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/TiHuanKongGeLcof.java">剑指 Offer 05. 替换空格</a>
 </details>
 
 
