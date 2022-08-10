@@ -5,8 +5,8 @@
     <summary>001~050</summary>
     1. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/ShuZuZhongZhongFuDeShuZiLcof.java">[剑指 Offer 03]数组中重复的数字	Easy</a><br/>
     2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/ErWeiShuZuZhongDeChaZhaoLcof.java">[剑指 Offer 04]二维数组中的查找	Medium</a><br/>
-    2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/TiHuanKongGeLcof.java">[剑指 Offer 05]替换空格	Easy</a><br/>
-    2. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/CongWeiDaoTouDaYinLianBiaoLcof.java">[剑指 Offer 06]从尾到头打印链表	Easy</a><br/>
+    3. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/TiHuanKongGeLcof.java">[剑指 Offer 05]替换空格	Easy</a><br/>
+    4. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/srto/CongWeiDaoTouDaYinLianBiaoLcof.java">[剑指 Offer 06]从尾到头打印链表	Easy</a><br/>
 </details>
 
 
