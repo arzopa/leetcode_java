@@ -207,9 +207,14 @@
 </details>
 
 
+## [🔥LeetCode 热题 HOT 100 ](https://leetcode.cn/problem-list/2cktkvj/)
+<details>
+    <summary>001~100</summary>
+</details>
+
+
 # 浅刷
-
-
+>>> 随机刷
 ### 动态规划
   1. :heavy_check_mark: 509: 斐波那契数
   2. :heavy_check_mark: 70: 爬楼梯
