@@ -33,23 +33,61 @@
 //
 // 注意：本题与主站 240 题相同：https://leetcode-cn.com/problems/search-a-2d-matrix-ii/ 
 //
-// Related Topics 数组 二分查找 分治 矩阵 👍 752 👎 0
+// Related Topics 数组 二分查找 分治 矩阵 👍 756 👎 0
+
 
 package leetcode.editor.cn.interview.srto;
-// Java：二维数组中的查找
-// question number: 剑指 Offer 04
-public class ErWeiShuZuZhongDeChaZhaoLcof{
-    public static void main(String[] args) {
-        Solution solution = new ErWeiShuZuZhongDeChaZhaoLcof().new Solution();
-        // TO TEST
-    }
-    
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public boolean findNumberIn2DArray(int[][] matrix, int target) {
 
+/**
+ * 二维数组中的查找
+ *
+ * @author fallinyou
+ * @date 2022-08-10 09:46:24
+ * @question_num 剑指 Offer 04
+ *
+ * 	执行耗时:0 ms,击败了100.00% 的Java用户
+ * 	内存消耗:47 MB,击败了89.96% 的Java用户
+ */
+public class ErWeiShuZuZhongDeChaZhaoLcof {
+  public static void main(String[] args) {
+    //测试代码
+    Solution solution = new ErWeiShuZuZhongDeChaZhaoLcof().new Solution();
+    System.out.println(solution.findNumberIn2DArray(
+      new int[][]{
+        {1 ,3 ,5}
+//        , {3}, {5},
+      },
+      5
+    ));
+  }
+
+  //leetcode submit region begin(Prohibit modification and deletion)
+  class Solution {
+    public boolean findNumberIn2DArray(int[][] matrix, int target) {
+      if(matrix.length == 0){
+        return false;
+      }
+
+      int i = matrix.length - 1, j = 0;
+      int m = matrix[0].length;
+
+      while (i >= 0 && j <= m - 1) {
+        int current = matrix[i][j];
+        if (current < target) {
+          j++;
+          continue;
+        }
+
+        if (current == target) {
+          return true;
+        }
+
+        i--;
+      }
+
+      return false;
     }
-}
+  }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
