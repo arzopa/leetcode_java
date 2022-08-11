@@ -213,6 +213,40 @@
 </details>
 
 
+## [💙 LeetCode 精选数据库 70 题](https://leetcode.cn/problem-list/qgq7m9e)
+<details>
+    <summary>001~100</summary>
+</details>
+
+## [🧡 LeetCode 精选算法 200 题](https://leetcode.cn/problem-list/qg88wci)
+<details>
+    <summary>001~100</summary>
+</details>
+
+## [🏆 力扣杯 - 竞赛合集](https://leetcode.cn/problem-list/7cyqwuv)
+<details>
+    <summary>001~100</summary>
+</details>
+
+## [🐧 腾讯精选练习 50 题](https://leetcode.cn/problem-list/ex0k24j)
+<details>
+    <summary>001~100</summary>
+</details>
+
+## [👨‍💻 LeetCode 精选 TOP 面试题](https://leetcode.cn/problem-list/2ckc81c)
+<details>
+    <summary>001~100</summary>
+</details>
+
+## [程序员面试金典（第 6 版）](https://leetcode.cn/problem-list/xb9lfcwi)
+<details>
+    <summary>001~100</summary>
+</details>
+
+
+
+
+
 # 浅刷
 > 随机刷
 ## 动态规划
