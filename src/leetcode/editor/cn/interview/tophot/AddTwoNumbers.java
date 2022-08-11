@@ -41,7 +41,7 @@
 // Related Topics 递归 链表 数学 👍 8483 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.interview.tophot;
 
 import leetcode.editor.cn.common.ListNode;
 
