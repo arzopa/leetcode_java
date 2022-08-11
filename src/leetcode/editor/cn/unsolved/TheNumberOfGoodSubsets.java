@@ -54,7 +54,7 @@
 // 
 // Related Topics 位运算 数组 数学 动态规划 状态压缩 👍 116 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 import java.util.Arrays;
 import java.util.HashSet;

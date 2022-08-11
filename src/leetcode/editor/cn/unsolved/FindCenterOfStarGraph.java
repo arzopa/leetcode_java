@@ -34,7 +34,7 @@
 // 
 // Related Topics 图 👍 23 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：找出星型图的中心节点
 // question number: 1791

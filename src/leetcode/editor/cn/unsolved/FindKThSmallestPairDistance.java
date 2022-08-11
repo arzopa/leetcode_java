@@ -44,7 +44,7 @@
 // Related Topics 数组 双指针 二分查找 排序 👍 302 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 /**
  * 找出第 K 小的数对距离

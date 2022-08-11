@@ -33,10 +33,9 @@
 // Related Topics 数组 排序 👍 95 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 /**

@@ -26,7 +26,7 @@
 // Related Topics 字符串 👍 91 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 /**
  * IP 地址无效化

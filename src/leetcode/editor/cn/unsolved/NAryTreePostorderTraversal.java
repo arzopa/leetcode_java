@@ -38,7 +38,7 @@
 // 进阶：递归法很简单，你可以使用迭代法完成此题吗? 
 // Related Topics 栈 树 深度优先搜索 👍 216 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 import java.util.ArrayList;
 import java.util.List;

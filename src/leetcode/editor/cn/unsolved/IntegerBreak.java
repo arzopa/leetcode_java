@@ -27,7 +27,7 @@
 // 
 // Related Topics 数学 动态规划 👍 724 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：整数拆分
 // question number: 343

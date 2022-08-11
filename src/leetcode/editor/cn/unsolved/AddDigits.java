@@ -32,7 +32,7 @@
 // 进阶：你可以不使用循环或者递归，在 O(1) 时间复杂度内解决这个问题吗？ 
 // Related Topics 数学 数论 模拟 👍 426 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：各位相加
 // question number: 258

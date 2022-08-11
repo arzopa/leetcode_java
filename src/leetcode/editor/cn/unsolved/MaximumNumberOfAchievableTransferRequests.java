@@ -57,7 +57,7 @@
 // 
 // Related Topics 位运算 数组 回溯 枚举 👍 46 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：最多可达成的换楼请求数目
 // question number: 1601

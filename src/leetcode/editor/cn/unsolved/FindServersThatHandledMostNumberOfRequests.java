@@ -77,7 +77,7 @@
 // 
 // Related Topics 贪心 数组 有序集合 堆（优先队列） 👍 84 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 import java.util.List;
 

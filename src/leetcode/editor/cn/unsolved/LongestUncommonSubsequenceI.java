@@ -44,7 +44,7 @@
 // 
 // Related Topics 字符串 👍 182 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：最长特殊序列 Ⅰ
 // question number: 521

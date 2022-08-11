@@ -3,6 +3,7 @@
 ## [🔥LeetCode 热题 HOT 100 ](https://leetcode.cn/problem-list/2cktkvj/)
 <details>
     <summary>001~100</summary>
+    001. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/TwoSum.java">[1]两数之和	Easy</a><br/>
 </details>
 
 

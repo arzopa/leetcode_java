@@ -55,7 +55,7 @@
 // 
 // Related Topics 广度优先搜索 数组 矩阵 👍 42 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：地图中的最高点
 // question number: 1765

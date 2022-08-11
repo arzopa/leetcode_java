@@ -57,7 +57,7 @@
 // 进阶：你可以设计一种时间复杂度为 O(n) 的解决方案吗？ 
 // Related Topics 栈 数组 单调栈 👍 43 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：子数组范围和
 // question number: 2104

@@ -49,7 +49,7 @@
 // 
 // Related Topics 树 深度优先搜索 数组 二叉树 👍 98 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 // Java：统计最高分的节点数目
 // question number: 2049
 public class CountNodesWithTheHighestScore{

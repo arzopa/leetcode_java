@@ -36,7 +36,7 @@
 // Related Topics 贪心 数组 双指针 👍 3484 👎 0
 
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 /**
  * 盛最多水的容器

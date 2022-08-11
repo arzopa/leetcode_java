@@ -41,7 +41,7 @@
 // 
 // Related Topics 动态规划 👍 166 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 // Java：骑士在棋盘上的概率
 // question number: 688
 public class KnightProbabilityInChessboard{

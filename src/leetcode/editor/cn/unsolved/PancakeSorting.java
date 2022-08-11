@@ -49,7 +49,7 @@
 // 
 // Related Topics 贪心 数组 双指针 排序 👍 154 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 import java.util.ArrayList;
 import java.util.List;

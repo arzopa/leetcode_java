@@ -31,7 +31,7 @@
 // 
 // Related Topics 数学 字符串 👍 129 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 // Java：寻找最近的回文数
 // question number: 564
 public class FindTheClosestPalindrome{

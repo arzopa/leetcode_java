@@ -25,7 +25,7 @@
 // 
 // Related Topics 数学 👍 157 👎 0
 
-package leetcode.editor.cn;
+package leetcode.editor.cn.unsolved;
 
 // Java：七进制数
 // question number: 504
