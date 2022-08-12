@@ -43,22 +43,33 @@ package leetcode.editor.cn;
 
 /**
  * 无重复字符的最长子串
+ *
  * @author fallinyou
  * @date 2022-08-11 17:22:57
  * @question_num 3
  */
-public class LongestSubstringWithoutRepeatingCharacters{
-	 public static void main(String[] args) {
-	 	 //测试代码
-	 	 Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
-	 }
-	 
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int lengthOfLongestSubstring(String s) {
+public class LongestSubstringWithoutRepeatingCharacters {
+  public static void main(String[] args) {
+    //测试代码
+    Solution solution = new LongestSubstringWithoutRepeatingCharacters().new Solution();
+  }
 
+  //leetcode submit region begin(Prohibit modification and deletion)
+  class Solution {
+    public int lengthOfLongestSubstring(String s) {
+      if (s.length() == 0) {
+        return 0;
+      }
+
+      int len = 1;
+      char[] charArray = s.toCharArray();
+      for (int i = 0; i < charArray.length - 1; i++) {
+        for (int j = i + 1; j < charArray.length; j++) {
+
+        }
+      }
     }
-}
+  }
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
