@@ -5,7 +5,14 @@
     <summary>001~100</summary>
     001. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/TwoSum.java">[1]两数之和	Easy</a><br/>
     002. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/AddTwoNumbers.java">[2]两数相加	Medium</a><br/>
-    003. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[3]无重复字符的最长子串	Medium</a><br/>
+    003. :lock: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[3]无重复字符的最长子串	Medium</a><br/>
+    004. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[4]寻找两个正序数组的中位数	Hard</a><br/>
+    005. :lock: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[5]最长回文子串	Medium</a><br/>
+    006. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[6]Z 字形变换	Medium</a><br/>
+    007. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/ReverseInteger.java">[7]整数反转	Medium</a><br/>
+    008. :lock: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[8]字符串转换整数 (atoi)	Medium</a><br/>
+    009. :heavy_check_mark: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[9]回文数	Easy</a><br/>
+    010. :lock: <a href="src/leetcode/editor/cn/interview/tophot/LongestSubstringWithoutRepeatingCharacters.java">[10]正则表达式匹配	Hard</a><br/>
 </details>
 <br/>
 
